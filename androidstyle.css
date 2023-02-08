@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf' ) format('opentype') ;
+}
+:root{
+    --color1: #a9f3ca;
+    --color2: #53b873;
+    --color3: #2FE050;
+    --color4: #147A19;
+    --color5: #134F0D;
+}
+*{
+    margin: 0px;
+}
+body{
+    background-color: var(--color1);
+    margin: auto;
+    
+    
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom , var(--color4), var(--color5));
+    min-height: 80px;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+nav{
+    background-color: var(--color5);
+    padding-left: 30px;
+    padding-bottom: 20px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    
+}
+nav a:hover{
+    background-color: var(--color3);
+    border-radius: 10px;
+    color: var(--color5);
+    transition: .2s;
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.507);
+    outline: 10px;
+    
+}
+main h1{
+    font-family: android;
+    text-align: justify;
+    padding: 5px 15px;
+    background-image: linear-gradient(to right , var(--color4), transparent);
+    margin-left: -20px ;
+}
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+    text-indent: 25px;
+    padding: 20px 0px;
+}
+main a{
+    background-color: var(--color3);
+    padding: 2px 5px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--color5);
+}
+main a::after{
+    content: '🔗';
+    
+}
+main a:hover{
+    text-decoration: underline;
+    background-color: var(--color5);
+    color: var(--color1);
+}
+main img#bugdroid{
+    display: block;
+    margin: auto;
+}
+main iframe{
+    padding: 20px 20px;
+}
+
+
+footer{
+    background-color: rgb(11, 54, 13);
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding-top: 12px;
+}
+main aside{
+    background-color: var(--color2);
+    border-radius: 10px;
+    padding: 20px;
+}
+main ul{
+    columns: 2;
+    padding: 10px auto;
+}
+div.video{
+    background-color: #134F0D;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 1.4%;
+    left: 3.1%;
+    height: 90%;
+    width: 90%;
+}
