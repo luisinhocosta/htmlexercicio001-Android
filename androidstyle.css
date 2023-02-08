@@ -20,15 +20,18 @@ body{
 }
 header{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to bottom , var(--color4), var(--color5));
+    background-image: linear-gradient(to bottom , #24ce2c, var(--color4), var(--color5));
     min-height: 80px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 50px;
     color: white;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 30px;
     font-size: 1.2em;
+}
+header p{
+    padding: 15px 0px;
 }
 nav{
     background-color: var(--color5);
@@ -53,7 +56,7 @@ main{
     background-color: white;
     min-width: 300px;
     max-width: 1000px;
-    padding: 20px;
+    padding: 30px;
     margin: auto;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.507);
@@ -71,7 +74,7 @@ main h1{
 main p{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2em;
-    text-indent: 25px;
+    text-indent: 30px;
     padding: 20px 0px;
     font-size: 1.1em;
 }
@@ -102,8 +105,10 @@ main img{
     
     display: block;
     margin: auto;
+    width: auto;
+    height: auto;
+    padding: none;
 }
-
 
 footer{
     background-color: rgb(11, 54, 13);
