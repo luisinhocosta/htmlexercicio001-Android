@@ -14,7 +14,6 @@
 }
 body{
     background-color: var(--color1);
-    margin: auto;
     
     
 }
@@ -54,13 +53,13 @@ nav a:hover{
 }
 main{
     background-color: white;
-    min-width: 300px;
+    min-width: 200px;
     max-width: 1000px;
     padding: 30px;
     margin: auto;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.507);
-    outline: 10px;
+    
     
 }
 main h1{
@@ -98,9 +97,8 @@ main img#bugdroid{
     display: block;
     margin: auto;
 }
-main iframe{
-    padding: 20px 20px;
-}
+
+
 main img{
     
     display: block;
@@ -131,13 +129,13 @@ div.video{
     background-color: #134F0D;
     margin: 0px -20px 30px -20px;
     padding: 20px;
-    padding-bottom: 59%;
+    padding-bottom: 56%;
     position: relative;
 }
 div.video > iframe{
     position: absolute;
-    top: 1.4%;
-    left: 3.1%;
+    top: 5%;
+    left: 5%;
     height: 90%;
     width: 90%;
 }
